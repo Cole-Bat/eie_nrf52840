@@ -3,6 +3,11 @@ git branch - creates a new branch in the local repo
 git checkout - moves your pov to the current location of the branch
 git pull - pulls and merges the remote branch to local
 git push - pushs the local branch to remote
+	-u branch allows you to push a new branch (might need origin in front of the branch name)
 git merge - merges branches to the one you are focusing
 git rebase - linearizes branches
 git fetch - only fetches the remote to local
+git add - adds a file to the staging area of github
+git status - checks the status of files in a location and compares them to the remote repo
+git log - checks the log of events
+git diff - shows what has changed ie your delta
