@@ -1,0 +1,8 @@
+git commit - commits your current code to the local repo
+git branch - creates a new branch in the local repo
+git checkout - moves your pov to the current location of the branch
+git pull - pulls and merges the remote branch to local
+git push - pushs the local branch to remote
+git merge - merges branches to the one you are focusing
+git rebase - linearizes branches
+git fetch - only fetches the remote to local
