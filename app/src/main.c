@@ -34,13 +34,21 @@ int main(void)
         return -1;
     }
 
+    int count = 0;
+
     while(1){
-        gpio_pin_toggle_dt(&led0);
+
+        if (count % 2)
+            gpio_pin_toggle_dt(&led0);
+            
+               
         gpio_pin_toggle_dt(&led1);
         gpio_pin_toggle_dt(&led2);
         gpio_pin_toggle_dt(&led3);
-
+           
+        
         k_msleep(1000);
+        count++;
     }
     return 0;
 }
